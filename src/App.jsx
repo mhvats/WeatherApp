@@ -1,4 +1,6 @@
+import { DailyForecast } from "./components/DailyForecast";
 import { Detail } from "./components/Detail";
+import { HourlyForecast } from "./components/HourlyForecast";
 import { Location } from "./components/Location";
 import { MoreDetail } from "./components/MoreDetail";
 import { SearchBar } from "./components/SearchBar";
@@ -11,6 +13,8 @@ export const App = () => {
       <TimeStamp />
       <Detail />
       <MoreDetail />
+      <HourlyForecast />
+      <DailyForecast />
     </div>
   );
 };
